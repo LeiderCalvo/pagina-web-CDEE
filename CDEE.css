@@ -1,0 +1,707 @@
+* {
+  font-family: 'Fira Sans', sans-serif;
+}
+
+header {
+  height: 102px;
+  width: 100%;
+  min-width: 1500px;
+  padding: 26px 55px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: center;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+header .logos a {
+  padding-right: 62px;
+}
+
+header nav {
+  width: 710px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+  padding: 13px 0;
+}
+
+header nav a {
+  height: 22px;
+}
+
+header nav a div {
+  font-size: 22px;
+  font-weight: 500;
+  color: #8ea4a5;
+}
+
+header nav a div:hover {
+  color: #0f9466;
+}
+
+header a .btn {
+  background-color: #0f9466;
+  color: white;
+  font-size: 22px;
+}
+
+header a .btn:hover {
+  color: white;
+}
+
+.slider-caption {
+  margin-left: 150px;
+  min-width: 1500px;
+}
+
+.slider-caption .nott {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 800;
+  margin-bottom: 57px;
+}
+
+.slider-caption p {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  width: 939px;
+  margin-bottom: 64px;
+}
+
+.slider-caption .esp {
+  width: 760px;
+}
+
+.slider-caption .button {
+  width: 270px;
+  height: 75px;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 33px;
+  font-weight: 500;
+  background-color: #0f9466;
+}
+
+.slider-caption .btn {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.slider-caption .btn:hover {
+  background-color: #0f9466;
+}
+
+.banner {
+  margin-top: 105px;
+  height: 886px;
+  width: 100%;
+  background-image: url("demos/nonprofit/images/Programacion/Banner.png");
+  padding: 0 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  background-size: cover;
+}
+
+.banner h2 {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 800;
+  margin-bottom: 57px;
+  font-size: 100px;
+  max-width: 467px;
+  color: white;
+}
+
+.banner p {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  width: 790px;
+  margin-bottom: 64px;
+  color: white;
+}
+
+.banner .btn {
+  width: 270px;
+  height: 75px;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 33px;
+  font-weight: 500;
+  background-color: #0f9466;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.banner .btn:hover {
+  background-color: #0f9466;
+}
+
+.acercaDe .trayectoria {
+  margin-top: 194px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.acercaDe .trayectoria h2 {
+  font-size: 70px;
+  font-weight: 800;
+  color: #444444;
+  margin-bottom: 80px;
+}
+
+.acercaDe .trayectoria p {
+  font-size: 26px;
+  font-weight: 400;
+  color: #444444;
+  width: 85%;
+  margin-bottom: 185px;
+}
+
+.acercaDe .trayectoria .two-colums {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 100%;
+  padding: 0 150px;
+}
+
+.acercaDe .trayectoria .two-colums div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 45%;
+}
+
+.acercaDe .trayectoria .two-colums div h2 {
+  font-size: 70px;
+  font-weight: 400;
+  margin-bottom: 80px;
+}
+
+.acercaDe .trayectoria .two-colums div p {
+  width: 90%;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1199.98px) {
+  .acercaDe .trayectoria .two-colums {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .acercaDe .trayectoria .two-colums .first {
+    width: 100%;
+  }
+  .acercaDe .trayectoria .two-colums .first div {
+    width: 90%;
+  }
+  .acercaDe .trayectoria .two-colums .second {
+    width: 100%;
+  }
+  .acercaDe .trayectoria .two-colums .second div {
+    width: 90%;
+  }
+}
+
+.contacto .banner {
+  background-image: url("demos/nonprofit/images/contacto/Fondo.png");
+  height: 1000px;
+}
+
+.contacto .banner h2 {
+  font-size: 50px;
+}
+
+.contacto .banner .two-colums {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  min-width: 1500px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.contacto .banner .two-colums .uno form {
+  width: 685px;
+}
+
+.contacto .banner .two-colums .uno form .in {
+  width: 312px;
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 33px;
+}
+
+.contacto .banner .two-colums .uno form .in input {
+  width: 100%;
+  height: 47px;
+  margin-top: 10px;
+  background-color: rgba(255, 255, 255, 0.35);
+  border: none;
+  border-radius: 5px;
+  padding-left: 20px;
+  color: white;
+}
+
+.contacto .banner .two-colums .uno form .first {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contacto .banner .two-colums .uno form .second {
+  height: 146px;
+}
+
+.contacto .banner .two-colums .uno form .second input {
+  height: 111px;
+  width: 685px;
+}
+
+.contacto .banner .two-colums .uno form .btn {
+  margin-top: 85px;
+  width: 270px;
+  height: 56px;
+  font-size: 33px;
+  font-weight: 500px;
+}
+
+.contacto .banner .two-colums .dos {
+  width: 360px;
+}
+
+.contacto .banner .two-colums .dos h4 {
+  font-size: 23px;
+  font-weight: 800;
+  color: white;
+}
+
+.contacto .banner .two-colums .dos p {
+  width: 360px;
+  margin: 0;
+  margin-bottom: 28px;
+}
+
+.contacto .banner .two-colums .dos .block {
+  margin-bottom: 87px;
+}
+
+.contacto .banner .two-colums .dos .esp {
+  margin-bottom: 0;
+}
+
+.owl-dot {
+  background: none;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.programacion .banner h2 {
+  min-width: 780px;
+}
+
+.programacion .fecha {
+  margin-top: 194px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.programacion .fecha h2 {
+  font-size: 70px;
+  font-weight: 800;
+  color: #444444;
+  margin-bottom: 64px;
+}
+
+.programacion .fecha p {
+  font-size: 40px;
+  font-weight: 300;
+  color: #444444;
+  width: 85%;
+  margin-bottom: 185px;
+}
+
+.programacion .fecha .two-colums {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 100%;
+  padding: 0 150px;
+}
+
+.programacion .fecha .two-colums div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.programacion .fecha .two-colums div h2 {
+  font-size: 70px;
+  font-weight: 300;
+  margin-bottom: 80px;
+}
+
+.programacion .fecha .two-colums div p {
+  font-size: 26px;
+  font-weight: 300;
+  width: 600px;
+  text-align: center;
+  margin-bottom: 200px;
+}
+
+@media only screen and (max-width: 1199.98px) {
+  .programacion .fecha .two-colums {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .programacion .fecha .two-colums .first {
+    width: 100%;
+  }
+  .programacion .fecha .two-colums .first div {
+    width: 90%;
+  }
+  .programacion .fecha .two-colums .second {
+    width: 100%;
+  }
+  .programacion .fecha .two-colums .second div {
+    width: 90%;
+  }
+}
+
+.programacion .maestros {
+  width: 100%;
+}
+
+.programacion .maestros h2 {
+  font-size: 70px;
+  font-weight: 800;
+  width: 100%;
+  text-align: center;
+}
+
+.programacion .ContMaestro small {
+  padding-bottom: 50px;
+}
+
+.programacion .ContMaestro .descrip {
+  height: 70%;
+  overflow-y: hidden;
+}
+
+.programacion .ContMaestro .descrip:hover {
+  overflow-y: auto;
+}
+
+.programacion .ContMaestro .descrip::-webkit-scrollbar {
+  width: 5px;
+}
+
+.programacion .ContMaestro .descrip::-webkit-scrollbar-track {
+  background: #888;
+}
+
+.programacion .ContMaestro .descrip::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.programacion .ContMaestro .descrip::-webkit-scrollbar-thumb:hover {
+  background: #f2f2f2;
+}
+
+.empresas .banner {
+  background-image: url("demos/nonprofit/images/slider/Banner2.png");
+}
+
+.empresas .banner h2 {
+  font-size: 100px;
+  line-height: 100%;
+  font-weight: 400;
+  width: 70%;
+  min-width: 1000px;
+}
+
+.empresas .owl-carousel {
+  margin-top: 130px;
+  margin-bottom: 62px;
+}
+
+.empresas .oc-item {
+  margin-right: 40px;
+}
+
+.empresas .verTodos {
+  width: 100%;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  color: #0f9466;
+  margin-bottom: 62px;
+}
+
+.empresas .desEmpresas {
+  width: 100%;
+  padding: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: -300px;
+}
+
+.empresas .desEmppp {
+  width: 100%;
+  padding: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.empresas .desEmp {
+  width: 110%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 86px 40px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border-radius: 20px;
+}
+
+.empresas .desEmp:hover {
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.empresas .desEmp img {
+  margin: 4%;
+}
+
+.empresas .desEmp div {
+  height: 464px;
+  margin-left: 4%;
+  width: 60%;
+  overflow-x: hidden;
+}
+
+.empresas .desEmp div h2 {
+  font-size: 70px;
+  font-weight: 800;
+  min-width: 600px;
+}
+
+@media only screen and (max-width: 1502px) {
+  .empresas .desEmp div h2 {
+    font-size: 40px;
+  }
+}
+
+.empresas .desEmp div p {
+  font-size: 26px;
+  font-weight: 300;
+  width: 100%;
+  margin: 0;
+  max-height: 12em;
+  overflow-y: hidden;
+}
+
+.empresas .desEmp div p:hover {
+  overflow-y: auto;
+}
+
+.empresas .desEmp div p::-webkit-scrollbar {
+  width: 5px;
+}
+
+.empresas .desEmp div p::-webkit-scrollbar-track {
+  background: #888;
+}
+
+.empresas .desEmp div p::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.empresas .desEmp div p::-webkit-scrollbar-thumb:hover {
+  background: #f2f2f2;
+}
+
+@media only screen and (max-width: 1199.98px) {
+  .trayectoria {
+    width: 100%;
+  }
+  .trayectoria .two-colums {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .trayectoria .two-colums .first {
+    width: 100%;
+  }
+  .trayectoria .two-colums .first div {
+    width: 90%;
+  }
+  .trayectoria .two-colums .second {
+    width: 100%;
+  }
+  .trayectoria .two-colums .second div {
+    width: 90%;
+  }
+  .empresas .oc-item {
+    padding: 0 20%;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .empresas .oc-item {
+    padding: 0 20%;
+  }
+}
+/*# sourceMappingURL=CDEE.css.map */
