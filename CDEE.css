@@ -671,6 +671,27 @@ header a .btn:hover {
   background: #f2f2f2;
 }
 
+footer {
+  width: 100%;
+  padding: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 2;
+  background-color: white;
+}
+
+footer a {
+  margin-left: 1em;
+}
+
 @media only screen and (max-width: 1199.98px) {
   .trayectoria {
     width: 100%;

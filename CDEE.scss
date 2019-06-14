@@ -554,6 +554,19 @@ header{
     }
 }
 
+footer{
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    z-index: 2;
+    background-color: white;
+
+    a{margin-left: 1em;}
+}
+
 @media only screen and (max-width: 1199.98px) {
     .trayectoria{
         width: 100%;
