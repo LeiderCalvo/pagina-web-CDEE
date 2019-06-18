@@ -18,7 +18,7 @@ var empresas = [
     },
     {
         id : "JuanSangria",
-        titulo: "Juan Sangría",
+        titulo: "Juan Sangria",
         des: "Juan David Soler, egresado del programa de Administración de Empresas y Contaduría Pública y Finanzas Internacionales en el año 2010, además egresado de la Maestría en Creación de Empresas en el año 2019. Claudia Calero, egresada del programa de Ingeniería Industrial en el año 2014. Juntos conformaron su empresa JUAN SANGRIA, dedicada a la elaboración de bebidas derivadas del vino, con frutas tropicales. <strong>Contacto: info@intradex.co.</strong>",
         src: "demos/nonprofit/images/empresas/JuanSangriaOwner.png"
     },
@@ -69,6 +69,12 @@ var empresas = [
         titulo: "Angular",
         des: "Diego Barbosa T, como Diseñador de Medios Interactivos, consolidó su empresa Angular Diseño más Interacción, una empresa especializada en el desarrollo de soluciones tecnológicas escalables, de alto impacto e innovadoras. Enamorándose de los problemas, implementando metodologías de diseño y protocolos de desarrollo, logran encontrar las soluciones ideales para sus clientes. Su enfoque va desde ideas de negocio, hasta pequeñas empresas y grandes organizaciones. <strong>Contacto: diego@weareangular.com</strong>",
         src: "demos/nonprofit/images/empresas/AngularOwner.png"
+    },
+    {
+        id: "Primart",
+        titulo: "Primart",
+        des: "Juliana, egresada del programa Diseño Industrial en el año 2015. CEO de Primart Studios, agencia de publicidad que ofrece productos audiovisuales con las últimas técnicas de composición digital. <strong>Mayor información: juliana@primartstudios.com</strong>",
+        src: "demos/nonprofit/images/empresas/PriMartOwner.png"
     }
 ];
 
