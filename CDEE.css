@@ -278,7 +278,8 @@ header a .btn:hover {
 
 .contacto .banner {
   background-image: url("demos/nonprofit/images/contacto/Fondo.png");
-  height: 1000px;
+  background-position: center;
+  height: 1100px;
 }
 
 .contacto .banner h2 {
@@ -331,6 +332,18 @@ header a .btn:hover {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.contacto .banner .two-colums .uno form .pol {
+  height: 20px;
+  width: 20px;
+}
+
+.contacto .banner .two-colums .uno form .politica {
+  color: white;
+  text-decoration: none;
+  margin-bottom: 20px;
+  margin-left: 20px;
 }
 
 .contacto .banner .two-colums .uno form .second {
@@ -575,7 +588,7 @@ header a .btn:hover {
 
 .empresas .desEmppp {
   width: 100%;
-  padding: 150px;
+  padding: 100px 150px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -671,25 +684,105 @@ header a .btn:hover {
   background: #f2f2f2;
 }
 
+/*
+#wrapper{z-index: -1}
+#slider{z-index: -1}
+.slider-parallax-inner{z-index: -1}*/
 footer {
   width: 100%;
   padding: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   text-align: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  z-index: 2;
+  z-index: 1;
   background-color: white;
+  margin: 30px 0 0;
+  -webkit-box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-footer a {
+footer .izq {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .izq a {
+  display: inline;
   margin-left: 1em;
+  margin: 0;
+  color: #0f9466;
+}
+
+footer .izq span {
+  margin: 0;
+  margin-bottom: 15px;
+  font-size: 17px;
+  color: #444444;
+}
+
+footer .izq .spe a {
+  margin-left: 5px;
+}
+
+footer .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 8%;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+}
+
+.redSocial {
+  background-position: center;
+  background-size: contain;
+  width: 30px;
+  height: 30px;
+}
+
+.facebook {
+  background-image: url("demos/nonprofit/images/facebook-logo.png");
+}
+
+.instagram {
+  background-image: url("demos/nonprofit/images/instagram-logo.png");
+}
+
+.twitter {
+  background-image: url("demos/nonprofit/images/twitter.png");
 }
 
 @media only screen and (max-width: 1199.98px) {
